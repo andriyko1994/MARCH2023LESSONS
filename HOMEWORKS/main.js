@@ -6,47 +6,48 @@ let com = `com`
 console.log(com)
 let ua = `ua`
 console.log(ua)
-let a = 1
-console.log(1)
-let b = 10
-console.log(10)
-let c = -999
-console.log(-999)
+let numb = 1
+console.log(numb)
+let b1 = 10
+console.log(b1)
+let c1 = -999
+console.log(c1)
 let d = 123
-console.log(123)
+console.log(d)
 let e = 3.14
-console.log(3.14)
+console.log(e)
 let f = 2.7
-console.log(2.7)
+console.log(f)
 let g = 16
-console.log(16)
+console.log(g)
 let check = `true`
 console.log(true)
-let check = `false`
+let check2 = `false`
 console.log(false)
 
 
 
-let firstName = `Kohut`
-let middleName = `Andriy`
-let lastName = `Bohdanowich`
-let person = firstName + `Kohut` + middleName + `Andriy` + lastName + `Bohdanowich`
+let firstName = `Kohut`;
+let middleName = `Andriy`;
+let lastName = `Bohdanowich`;
+console.log(firstName, middleName, lastName);
+let person = firstName + ` ` + middleName + ` ` + lastName + ` `;
 
 
 let a = 100;
-console.log(100);
+console.log(a);
 let b = '100';
-console.log(100);
+console.log(b);
 let c = true;
-console.log(true);
-typeof a b c = 100 + `100` + true;
+console.log(c);
+ console.log( typeof a, typeof b, typeof c);
 
 
 let Name = prompt(`Andriy`);
-let lastName = prompt(`Bohdanowich`);
+let sureName = prompt(`Bohdanowich`);
 let myAge = prompt(28);
 
-console.log(`Andriy`);
-console.log(`Bohdanowich`);
-console.log(28)
+console.log(Name);
+console.log(sureName);
+console.log(myAge)
 
