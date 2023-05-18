@@ -54,21 +54,21 @@ let bookA ={
   title:`Arsen Lupen`,
   pageCount:635,
   genre:`adventures`,
-  authors:[`M.L`, 57]
+  authors:[{name:`M.L`, age: 57}],
 }
 
 let bookB ={
   title:`Atomic Habits`,
   pageCount:437,
   genre:`psyhology`,
-  authors:[`j.R`, 43]
+  authors:[{name:`j.R`, age: 34}],
 }
 
 let bookC ={
   title:`Poems`,
   pageCount:342,
   genre:`poems`,
-  authors:[`T.S.`, 38]
+  authors:[{name:`T.S.`, age: 38}],
 }
 
   // - Створити масив з 10 об'єктами які описують сутніть "користувач". Поля: name, username,password. Вивести в консоль пароль кожного користувача.
@@ -108,7 +108,7 @@ else if (x === 0) {
 // - Дано змінну time яка рівна числу від 0 до 59. Потрібно написати код, який перевірить, до якої четверті години попадає число
 // (в першу, другу, третю или четверту частину години).
 let time= +prompt(`Введіть число від 0 до 59`)
-if (time <=15) {
+if (time > 0 && time <=15) {
   console.log(`перша четверть`);
 }
 else if (time >15 && time <=30) {
